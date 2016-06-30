@@ -1,6 +1,6 @@
 package com.yankovets.hfdp.command.command;
 
-import com.yankovets.hfdp.command.classes.CeilingFan;
+import com.yankovets.hfdp.command.receivers.CeilingFan;
 
 public class CeilingFanMediumCommand implements Command {
     CeilingFan ceilingFan;

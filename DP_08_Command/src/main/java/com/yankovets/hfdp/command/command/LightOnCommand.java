@@ -1,6 +1,6 @@
 package com.yankovets.hfdp.command.command;
 
-import com.yankovets.hfdp.command.classes.Light;
+import com.yankovets.hfdp.command.receivers.Light;
 
 public class LightOnCommand implements Command {
     Light light;

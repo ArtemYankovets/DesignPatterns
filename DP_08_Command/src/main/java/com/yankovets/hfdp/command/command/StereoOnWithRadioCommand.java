@@ -1,6 +1,6 @@
 package com.yankovets.hfdp.command.command;
 
-import com.yankovets.hfdp.command.classes.Stereo;
+import com.yankovets.hfdp.command.receivers.Stereo;
 
 public class StereoOnWithRadioCommand implements Command {
     Stereo stereo;

@@ -3,12 +3,12 @@ package com.yankovets.hfdp.command;
 import com.yankovets.hfdp.command.command.Command;
 import com.yankovets.hfdp.command.command.NoCommand;
 
-public class RemoteControlWithUndo {
+public class Invoker_RemoteControlWithUndo {
     Command[] onCommands;
     Command[] offCommands;
     Command undoCommand;
 
-    public RemoteControlWithUndo() {
+    public Invoker_RemoteControlWithUndo() {
         onCommands = new Command[7];
         offCommands = new Command[7];
         

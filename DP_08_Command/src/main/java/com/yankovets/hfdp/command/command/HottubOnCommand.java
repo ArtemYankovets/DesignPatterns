@@ -1,6 +1,6 @@
 package com.yankovets.hfdp.command.command;
 
-import com.yankovets.hfdp.command.classes.Hottub;
+import com.yankovets.hfdp.command.receivers.Hottub;
 
 public class HottubOnCommand implements Command {
     Hottub hottub;

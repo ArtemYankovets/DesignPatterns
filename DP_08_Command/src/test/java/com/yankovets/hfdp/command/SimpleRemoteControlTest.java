@@ -1,7 +1,7 @@
 package com.yankovets.hfdp.command;
 
-import com.yankovets.hfdp.command.classes.GarageDoor;
-import com.yankovets.hfdp.command.classes.Light;
+import com.yankovets.hfdp.command.receivers.GarageDoor;
+import com.yankovets.hfdp.command.receivers.Light;
 import com.yankovets.hfdp.command.command.GarageDoorUpCommand;
 import com.yankovets.hfdp.command.command.LightOnCommand;
 

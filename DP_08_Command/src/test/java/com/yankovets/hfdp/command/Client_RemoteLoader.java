@@ -1,9 +1,9 @@
 package com.yankovets.hfdp.command;
 
-import com.yankovets.hfdp.command.classes.Hottub;
-import com.yankovets.hfdp.command.classes.Light;
-import com.yankovets.hfdp.command.classes.Stereo;
-import com.yankovets.hfdp.command.classes.TV;
+import com.yankovets.hfdp.command.receivers.Hottub;
+import com.yankovets.hfdp.command.receivers.Light;
+import com.yankovets.hfdp.command.receivers.Stereo;
+import com.yankovets.hfdp.command.receivers.TV;
 import com.yankovets.hfdp.command.command.Command;
 import com.yankovets.hfdp.command.command.HottubOffCommand;
 import com.yankovets.hfdp.command.command.HottubOnCommand;
@@ -15,9 +15,9 @@ import com.yankovets.hfdp.command.command.StereoOnWithCDCommand;
 import com.yankovets.hfdp.command.command.TVOffCommand;
 import com.yankovets.hfdp.command.command.TVOnCommand;
 
-public class RemoteLoader {
+public class Client_RemoteLoader {
     public static void main(String[] args) {
-        RemoteControlWithUndo remoteControl = new RemoteControlWithUndo();
+        Invoker_RemoteControlWithUndo remoteControl = new Invoker_RemoteControlWithUndo();
 
         Light light = new Light("Living Room");
         TV tv = new TV("Living Room");

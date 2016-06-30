@@ -1,6 +1,6 @@
 package com.yankovets.hfdp.command.command;
 
-import com.yankovets.hfdp.command.classes.GarageDoor;
+import com.yankovets.hfdp.command.receivers.GarageDoor;
 
 public class GarageDoorUpCommand implements Command {
     GarageDoor garageDoor;

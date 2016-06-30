@@ -1,6 +1,6 @@
 package com.yankovets.hfdp.command.command;
 
-import com.yankovets.hfdp.command.classes.TV;
+import com.yankovets.hfdp.command.receivers.TV;
 
 public class TVOffCommand implements Command {
     TV tv;

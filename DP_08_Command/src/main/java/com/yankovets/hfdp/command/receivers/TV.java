@@ -1,4 +1,4 @@
-package com.yankovets.hfdp.command.classes;
+package com.yankovets.hfdp.command.receivers;
 
 public class TV {
     String location;
